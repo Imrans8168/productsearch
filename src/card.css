@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.imgcss{
+    height: 100%;
+    width: 100%;
+}
+.cardcustom{
+   cursor: pointer;
+}
+.headercontainer{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.headercontainer input{
+    align-items: center;
+    width: 300px;
+}
